@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example document</title>
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" media="all" >
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5-els.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" media="all" >
+  <![endif]-->
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1>PeaNut</h1>
+        <nav id="primary">
+          <ul>
+            <li><a href="#">Recent Stuff</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">MythTV</a></li>
+            <li><a href="#">Tranmission</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <article id="content">
+      <%= yield %>
+      </article>
+
+    </div>
+
+  </body>
+</html>
