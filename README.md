@@ -1,4 +1,4 @@
-peanut
+Peanut
 ======
 
-Simple web interface to media server activities
+A simple web interface to media server activities
